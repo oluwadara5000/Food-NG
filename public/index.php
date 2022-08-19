@@ -20,19 +20,30 @@
             </div>
 
             <div class="nav-items">
-                <nav>
-                    <a href="">Home</a>
-                    <a href="">Menu</a>
-                    <a href="">About Us</a>
+                <nav class="nav-links">
+                    <a class="nav-link active" href=""><i class="fa fa-home" aria-hidden="true"></i>Home </a>
+                    <a href=""><i class="fa fa-book" aria-hidden="true"></i>Menu</a>
+                    <a href=""><i class="fa fa-phone" aria-hidden="true"></i>Contact</a>
+                    <a href=""><i class="fa fa-info" aria-hidden="true"></i>About Us</a>
                 </nav>
-                <button class="btn-order">Order Now</button>
-                <i onclick="openMenu()" class="fa fa-bars fa-lg" aria-labelledby="button"></i>
+                <button class="btn-order">Order Now
+                    <i class="fa fa-cart-plus cart" aria-hidden="true"></i>
+                </button>
+                <i onclick="openMenu()" class="fa fa-bars icon fa-lg" aria-labelledby="button"></i>
             </div>
         </div>
     </header>
 
     <main class="container">
-        <section>hello</section>
+        <section>
+            <h3>You Are Welcome To Food NG</h3>
+        </section>
+        <div class="slideshow">
+            <img class="slide" src="resources/pictures/amala.jpg">
+            <img class="slide" src="resources/pictures/egusi-soup-recipe.jpg">
+            <img class="slide" src="resources/pictures/fried-rice.jpg">
+            <img class="slide" src="resources/pictures/bread-akara.jpg">
+        </div>
     </main>
 
 
