@@ -35,15 +35,22 @@
     </header>
 
     <main class="container">
-        <section>
-            <h3>You Are Welcome To Food NG</h3>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h3>Welcome To Food NG</h3>
+
+                <p class="hero-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas, tortor non viverra porta, ipsum est tempus nunc, id dapibus massa augue vel purus. Praesent ac commodo arcu. Phasellus euismod arcu in fermentum venenatis. Fusce sit amet aliquam odio. Morbi rhoncus nibh nunc, ut auctor nulla viverra id. Curabitur sollicitudin congue fringilla. Sed vitae nibh quis lacus varius lacinia. Aliquam sodales fringilla mauris, quis fermentum magna efficitur quis. Aliquam condimentum sapien ut lectus pellentesque, tempor malesuada massa vulputate. Vestibulum posuere vitae neque sed aliquam. Nam enim ex, condimentum vitae sem accumsan, sollicitudin pulvinar lectus.</p>
+            </div>
+            <div class="hero-tile">
+                <div class="img-container">
+                    <img class="amala" src="resources/pictures/amala.jpg">
+                    <img class="slide" src="resources/pictures/egusi-soup-recipe.jpg">
+                </div>
+            </div>
+            <!--<div class="left">left</div>
+            <div class="right">right</div>-->
         </section>
-        <div class="slideshow">
-            <img class="slide" src="resources/pictures/amala.jpg">
-            <img class="slide" src="resources/pictures/egusi-soup-recipe.jpg">
-            <img class="slide" src="resources/pictures/fried-rice.jpg">
-            <img class="slide" src="resources/pictures/bread-akara.jpg">
-        </div>
+
     </main>
 
 
